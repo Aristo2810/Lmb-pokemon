@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(36, 68, 92);
+    font-family: Cambria, Georgia, serif;
+    color : #fff
+  }
+  .grid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.grid img {
+	flex-basis: calc(20% - 20px);
+	height: 300px;
+	object-fit: contain;
+	margin: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(36, 68, 92);
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+  }
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  header {
+    position: relative; /* Ajoutez une position relative pour que les positions absolues soient relatives à l'en-tête */
+    border-bottom: 1px solid black; /* Ajoutez une bordure en bas de l'en-tête */
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
